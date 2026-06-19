@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake or Real</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="menu-dim" id="menuDim"></div>
+    <div class="menu-panel" id="menuPanel">
+      <button class="close-btn" id="closeMenu">
+        <img src="./assets/common/close.svg" alt="close" />
+      </button>
+      <a href="#home" class="menu-link active">Home</a>
+      <a href="works.html" class="menu-link">Works</a>
+    </div>
+
+    <header class="topbar">
+      <button class="menu-btn" id="openMenu">
+        <img src="./assets/common/menu.svg" alt="menu" />
+      </button>
+    </header>
+
+    <main>
+      <section id="home" class="home">
+        <div class="poster-wrap">
+          <video
+            class="poster-video"
+            id="motionPoster"
+            autoplay
+            muted
+            playsinline
+          >
+            <source src="./assets/common/motion_poster.mp4" type="video/mp4" />
+          </video>
+
+          <img
+            src="./assets/common/poster.png"
+            class="poster poster-static"
+            id="staticPoster"
+          />
+        </div>
+        <div
+          class="scroll-text"
+          id="scrollHint"
+          onclick="
+            document
+              .querySelector('#about')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
+        >
+          <span>Scroll</span>
+          <img src="./assets/common/double_arrow.svg" alt="" />
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <h2>[1] About</h2>
+        <img
+          src="./assets/common/logo_fakeorreal.png"
+          alt="Fake or Real"
+          class="about-logo"
+        />
+
+        <div class="about-subtitle">: 보이는 것과 존재하는 것 사이</div>
+        <p>
+          우리는 이미지와 함께 살아간다.<br />
+          SNS 속에서 타인의 삶을 소비하고, 동시에 자신의 모습을 선택적으로
+          편집하여 보여준다.<br />
+          본 전시는 이미지와 현실, 욕망과 자아의 관계를 탐구한다.
+        </p>
+
+        <h2>[2] Information</h2>
+
+        <div class="info-block">
+          <p class="info-title">2026.06.27(토) - 06.28(일)</p>
+          <p class="info-text">
+            11:00 - 20:00
+            <span class="info-note">&nbsp;&nbsp;&nbsp;*마지막 입장 19:30</span>
+          </p>
+        </div>
+
+        <div class="info-block">
+          <p class="info-title">아트숨비센터 2F 갤러리</p>
+          <p class="info-text">서울특별시 은평구 응암동 109-14</p>
+        </div>
+
+        <img src="./assets/common/map.png" alt="map" class="map" />
+
+        <div class="transport">
+          <div class="transport-title">
+            <img src="./assets/common/subway.svg" alt="subway" />
+            <span>Subway</span>
+          </div>
+          <p class="info-text">[6호선] 응암역 4번 출구 (도보 약 5분 소요)</p>
+        </div>
+
+        <div class="transport">
+          <div class="transport-title">
+            <img src="./assets/common/bus.svg" alt="bus" />
+            <span>Bus</span>
+          </div>
+          <p class="info-text">
+            [응암역·신사오거리]<br />
+            간선버스: 571, 753, 702A<br />
+            지선버스: 7212, 7613
+          </p>
+        </div>
+
+        <span class="parking-note">
+          *주차 공간이 마련되어 있지 않아, 대중교통 이용을 권장드립니다.
+        </span>
+
+        <h2>[3] Artist</h2>
+
+        <div class="artist-grid">
+          <div class="artist-category">
+            <h3>Photography</h3>
+            <p class="artist-major">상명대 사진영상미디어전공</p>
+
+            <div class="artist-name-grid">
+              <div>
+                서가현<br />
+                손지영<br />
+                양지훈
+              </div>
+              <div>
+                엄윤성<br />
+                유준혁<br />
+                이동현
+              </div>
+            </div>
+          </div>
+
+          <div class="artist-category">
+            <h3>Video</h3>
+            <p class="artist-major">상명대 영화영상전공</p>
+
+            <div class="artist-name-grid video">
+              <div>
+                김나린<br />
+                이정원
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2>[4] Team</h2>
+        <div class="team-list">
+          <div class="team-role">
+            <div>총괄</div>
+            <div>기획</div>
+            <div>홍보</div>
+            <div>디자인</div>
+          </div>
+
+          <div class="team-names">
+            <div class="team-row">
+              <span>김채령</span>
+            </div>
+
+            <div class="team-row">
+              <span>김지현</span>
+              <span>김채령</span>
+              <span>김태</span>
+              <span>오다인</span>
+              <span>최은진</span>
+            </div>
+
+            <div class="team-row">
+              <span>김지현</span>
+              <span>김채령</span>
+            </div>
+
+            <div class="team-row">
+              <span>김태</span>
+              <span>오다인</span>
+              <span>최은진</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="credit-section">
+          <div class="credit-block">
+            <h3>Presented by</h3>
+            <img
+              src="./assets/common/logo_acm.png"
+              class="credit-logo acm-logo"
+              alt="ACM logo"
+            />
+            <p>상명대학교 문화예술경영</p>
+          </div>
+
+          <div class="credit-block">
+            <h3>Organized by</h3>
+            <img
+              src="./assets/common/logo_team.png"
+              class="credit-logo team-logo"
+              alt="Team logo"
+            />
+            <p>팀 피스오브케이크</p>
+          </div>
+        </div>
+
+        <div class="home-footer">
+          <img
+            src="./assets/common/logo_fakeorreal_color.png"
+            alt="Fake or Real"
+            class="footer-logo"
+          />
+
+          <p class="footer-subtitle">: 보여지는 것과 존재하는 것 사이</p>
+
+          <div class="footer-info">
+            <div class="footer-row">
+              <span class="footer-label">전시기간</span>
+              <span class="footer-text"
+                >2026. 06. 27 - 06. 28, 11:00 - 20:00</span
+              >
+            </div>
+
+            <div class="footer-row">
+              <span class="footer-label">전시장 위치</span>
+              <span class="footer-text"
+                >아트숨비센터 2F 갤러리<br />서울 은평구 응암동 109-14</span
+              >
+            </div>
+
+            <div class="footer-row">
+              <span class="footer-label">인스타그램</span>
+              <span class="footer-text">@pieceofcake.team</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake or Real</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="menu-dim" id="menuDim"></div>
+    <div class="menu-panel" id="menuPanel">
+      <button class="close-btn" id="closeMenu">
+        <img src="./assets/common/close.svg" alt="close" />
+      </button>
+
+      <a href="index.html" class="menu-link">Home</a>
+      <a href="works.html" class="menu-link active">Works</a>
+    </div>
+
+    <header class="topbar">
+      <button class="menu-btn" id="openMenu">
+        <img src="./assets/common/menu.svg" alt="menu" />
+      </button>
+    </header>
+
+    <main>
+      <section id="works" class="works">
+        <div class="map-box">전시장 배치도</div>
+
+        <div class="tabs">
+          <button class="tab active" data-section="persona">Persona</button>
+          <button class="tab" data-section="desire">Desire</button>
+          <button class="tab" data-section="reality">Reality</button>
+          <button class="tab" data-section="simulation">Simulation</button>
+          <button class="tab" data-section="visage">Visage</button>
+        </div>
+
+        <div id="workContent"></div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
