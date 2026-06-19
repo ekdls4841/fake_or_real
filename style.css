@@ -203,7 +203,7 @@ body {
 .about-subtitle {
   font-family: "Pretendard";
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 10px;
   margin-bottom: 25px;
 }
@@ -211,7 +211,7 @@ body {
 .about > p {
   font-family: "Pretendard";
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%;
   letter-spacing: -0.01em;
   color: #212121;
@@ -234,7 +234,7 @@ body {
 .artist-category h3 {
   font-family: "Pretendard", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.01em;
   color: #000;
   line-height: 1;
@@ -244,7 +244,7 @@ body {
 .artist-major {
   font-family: "Pretendard", sans-serif;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.01em;
   color: #000;
   line-height: 150%;
@@ -258,7 +258,7 @@ body {
 
   font-family: "Pretendard", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -0.01em;
   line-height: 180%;
   color: #212121;
@@ -279,7 +279,7 @@ body {
 .credit-block h3 {
   font-family: "Pretendard", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.01em;
   color: #212121;
   line-height: 1;
@@ -305,7 +305,7 @@ body {
 .credit-block p {
   font-family: "Pretendard", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -0.01em;
   color: #212121;
   line-height: 150%;
@@ -414,7 +414,7 @@ body {
 .info-title {
   font-family: "Pretendard", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.01em;
   color: #000;
   line-height: 150%;
@@ -424,7 +424,7 @@ body {
 .info-text {
   font-family: "Pretendard", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -0.01em;
   color: #212121;
   line-height: 150%;
@@ -450,7 +450,7 @@ body {
 
   font-family: "Pretendard", sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.01em;
   color: #000;
 
@@ -468,7 +468,7 @@ body {
 
   font-family: "Pretendard", sans-serif;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -0.01em;
   color: #212121;
 
@@ -489,7 +489,7 @@ body {
 
   font-family: "Pretendard", sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.01em;
   color: #000;
 }
@@ -501,7 +501,7 @@ body {
 
   font-family: "Pretendard", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -0.01em;
   color: #212121;
 }
@@ -533,7 +533,7 @@ body {
 .footer-subtitle {
   font-family: "Pretendard", sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.01em;
   line-height: 150%;
   color: #fff;
@@ -556,7 +556,7 @@ body {
   flex: 0 0 60px;
   font-family: "Pretendard", sans-serif;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.01em;
   line-height: 150%;
   color: #fff;
@@ -565,42 +565,10 @@ body {
 .footer-text {
   font-family: "Pretendard", sans-serif;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -0.01em;
   line-height: 150%;
   color: #fff;
-}
-
-.poster-wrap {
-  position: relative;
-  width: 100%;
-  background: #000;
-}
-
-.poster-video,
-.poster-static {
-  width: 100%;
-  display: block;
-}
-
-.poster-video {
-  opacity: 1;
-  transition: opacity 0.8s ease;
-}
-
-.poster-video.fade-out {
-  opacity: 0;
-}
-
-.poster-static {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 0.8s ease;
-}
-
-.poster-static.fade-in {
-  opacity: 1;
 }
 
 .scroll-text {
@@ -609,7 +577,7 @@ body {
   padding: 64px 0 86px;
   font-family: "Noto Serif Display", serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1;
 
   opacity: 0;

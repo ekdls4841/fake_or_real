@@ -155,19 +155,3 @@ if (workContent && tabs.length > 0) {
 
   showWork("persona");
 }
-
-const motionPoster = document.getElementById("motionPoster");
-const staticPoster = document.getElementById("staticPoster");
-const scrollHint = document.getElementById("scrollHint");
-
-if (motionPoster && staticPoster && scrollHint) {
-  motionPoster.addEventListener("ended", () => {
-    staticPoster.classList.add("fade-in");
-    motionPoster.classList.add("fade-out");
-
-    setTimeout(() => {
-      motionPoster.style.visibility = "hidden";
-      scrollHint.classList.add("show");
-    }, 850);
-  });
-}
