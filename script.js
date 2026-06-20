@@ -149,9 +149,24 @@ if (workContent && tabs.length > 0) {
 
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
-      showWork(tab.dataset.section);
+      const section = tab.dataset.section;
+      showWork(section);
+      history.replaceState(null, "", `#${section}`);
     });
   });
 
-  showWork("persona");
+  const sectionFromUrl = window.location.hash.replace("#", "");
+  const validSections = [
+    "persona",
+    "desire",
+    "reality",
+    "simulation",
+    "visage",
+  ];
+
+  if (validSections.includes(sectionFromUrl)) {
+    showWork(sectionFromUrl);
+  } else {
+    showWork("persona");
+  }
 }

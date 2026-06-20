@@ -618,3 +618,17 @@ body {
     opacity: 1;
   }
 }
+
+.gallery-map-wrap {
+  background: #212121;
+  width: 100%;
+
+  padding-top: 48px;
+}
+
+.gallery-map {
+  width: 115%;
+  max-width: none;
+  display: block;
+  margin-left: -7.5%;
+}
