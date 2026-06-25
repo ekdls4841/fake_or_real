@@ -233,7 +233,7 @@ const works = {
 </div>
 
     <div class="artwork">
-      <img src="./assets/visage/visage_thumb.png" class="work-img">
+      <img src="./assets/visage/visage_thumb.jpg" class="work-img">
 
       <div class="caption">
         Visage: 자화상
